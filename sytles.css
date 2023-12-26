@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: large;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #2e2e2e;
+    gap: 100px;
+}
+.nav{
+    margin: 0 0 0 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(168, 162, 162);
+    border: 2px solid rgb(168, 162, 162);
+    gap: 20px;
+    width: 100%;
+}
+.btn{
+    background-color: #e7e7e7;
+    color: black;
+    border: 2px solid #e7e7e7;
+    border-radius: 5px;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin-top: auto;
+}
+
+input{
+    color: black;
+}
+#wrapper{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+
+}
+h1{
+    width: 100%;
+    font-size: 30px;
+    background-color: black;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+#guess{
+    font-size: 50x;
+}
+#guessField{
+    text-decoration:none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+#subt{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 2px;
+    width: 75%;
+}
+.guesses{
+    background-color: #e7e7e7;
+    color: black;
+}
+#newGame{
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color:black
+}
